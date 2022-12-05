@@ -37,7 +37,8 @@ stage = 0
 def buildMan(stage):
     run = True
     if stage == 0:
-        for _ in range(8):  print("")
+        for _ in range(8):  
+            print("")
         
     elif stage == 1:
         print("  O")
@@ -92,7 +93,7 @@ def buildMan(stage):
 
 #randomises a word
 def word_generator():
-    words = ["fat", "infectious", "froward", "three", "inch", "scurvy", "scullion", "wert", "worm", "fool"]
+    words = ["Dave", "Elliot", "Rivre", "fat", "infectious", "froward", "three", "inch", "scurvy", "scullion", "wert", "worm", "fool", "Nathan"]
     index = random.randint(0, len(words) - 1)
     return words[index]
 
