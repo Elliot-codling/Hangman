@@ -92,7 +92,7 @@ def buildMan(stage):
 
 #randomises a word
 def word_generator():
-    words = ["Dave", "Elliot", "Rivre", "fat", "infectious", "froward", "three", "inch", "scurvy", "scullion", "wert", "worm", "fool", "Nathan"]
+    words = ["fat", "infectious", "froward", "three", "inch", "scurvy", "scullion", "wert", "worm", "fool"]
     index = random.randint(0, len(words) - 1)
     return words[index]
 
